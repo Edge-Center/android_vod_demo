@@ -27,6 +27,9 @@ This demo application provides an example of implementing smooth scrolling and v
 * Anroid min API 23
 
 # Screenshots
+<img src = "https://user-images.githubusercontent.com/127736115/225255404-28d083a9-f614-4f9f-b167-c9ac68d698c9.png" width=240> <img 
+src = "https://user-images.githubusercontent.com/127736115/225255411-b3d755e5-9651-4079-bf3b-329c1a8aeaf3.png" width=240> <img 
+src = "https://user-images.githubusercontent.com/127736115/225255418-57acbbfc-2b25-4d81-90c0-b11288c13baa.png" width=240>
 
 # License
     MIT License
