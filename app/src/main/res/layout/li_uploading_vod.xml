@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/videoPreview"
+        android:layout_width="120dp"
+        android:layout_height="84dp"
+        android:scaleType="centerCrop"
+        android:background="@color/black"
+
+        app:shapeAppearanceOverlay="@style/roundedImageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/videoNameTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="38dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:maxLines="2"
+        android:ellipsize="end"
+
+        app:layout_constraintTop_toTopOf="@+id/videoPreview"
+        app:layout_constraintStart_toEndOf="@+id/videoPreview"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="VideoName"/>
+
+    <TextView
+        android:id="@+id/videoId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="12sp"
+        android:textColor="@color/grey_600"
+
+        app:layout_constraintTop_toBottomOf="@id/videoNameTV"
+        app:layout_constraintStart_toStartOf="@id/videoNameTV"
+        tools:text="ID: 487551"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        style="?android:actionButtonStyle"
+        android:adjustViewBounds="true"
+
+        android:id="@+id/watchVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_right_12"
+
+        app:layout_constraintTop_toTopOf="@id/videoNameTV"
+        app:layout_constraintBottom_toTopOf="@id/toggleUpload"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/percentProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey_600"
+        android:textSize="12sp"
+        android:text="@string/zero_percent"
+
+        app:layout_constraintStart_toStartOf="@id/videoNameTV"
+        app:layout_constraintTop_toTopOf="@id/toggleUpload"
+        app:layout_constraintBottom_toBottomOf="@id/toggleUpload"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+
+        app:layout_constraintStart_toEndOf="@id/percentProgress"
+        app:layout_constraintTop_toTopOf="@id/toggleUpload"
+        app:layout_constraintBottom_toBottomOf="@id/toggleUpload"
+        app:layout_constraintEnd_toStartOf="@id/toggleUpload"
+        tools:progress="63"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        style="?android:actionButtonStyle"
+        android:adjustViewBounds="true"
+
+        android:id="@+id/toggleUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_cancel_24"
+
+        app:layout_constraintEnd_toEndOf="@id/watchVideo"
+        app:layout_constraintBottom_toBottomOf="@id/videoPreview"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        style="?android:actionButtonStyle"
+        android:adjustViewBounds="true"
+
+        android:id="@+id/successUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_check_24"
+        android:clickable="false"
+        android:visibility="gone"
+
+        app:layout_constraintEnd_toEndOf="@id/watchVideo"
+        app:layout_constraintBottom_toBottomOf="@id/videoPreview"/>
+
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+
+        app:layout_constraintTop_toBottomOf="@id/videoPreview"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

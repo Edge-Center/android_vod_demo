@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@id/videos"
+        android:title="@string/vods"
+        android:icon="@drawable/ic_videos_24"/>
+
+    <item
+        android:id="@id/viewing"
+        android:title="@string/viewing"
+        android:icon="@drawable/ic_viewing_24"/>
+
+    <item
+        android:id="@id/upload_video"
+        android:title="@string/upload"
+        android:icon="@drawable/ic_upload_24"/>
+
+    <item
+        android:id="@id/account"
+        android:title="@string/account"
+        android:icon="@drawable/ic_account"/>
+</menu>

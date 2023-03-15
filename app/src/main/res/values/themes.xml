@@ -1,0 +1,61 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.EdgeVOD" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryVariant">@color/primary_variant_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/primary_blue</item>
+        <item name="colorSecondaryVariant">@color/primary_variant_blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/blue_900</item>
+        <item name="android:editTextColor">@color/et_color_selector</item>
+        <item name="buttonStyle">@style/myAppCompatButtonStyle</item>
+        <item name="toolbarStyle">@style/myToolbar</item>
+    </style>
+
+    <style name="myAppCompatButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background_selector</item>
+        <item name="android:textColor">@color/text_color_selector</item>
+    </style>
+
+    <style name="toolbarTitle" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">22sp</item>
+        <!--<item name="fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">normal</item>-->
+    </style>
+
+    <style name="CustomTabTextAppearance" parent="TextAppearance.AppCompat.Title">
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="myToolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="titleTextColor">@color/grey_100</item>
+        <item name="titleTextAppearance">@style/toolbarTitle</item>
+        <item name="android:background">@color/dark_grey</item>
+    </style>
+
+    <style name="myTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/til_color_selector</item>
+        <item name="endIconTint">@color/toggle_password_selector</item>
+    </style>
+
+    <style name="roundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+        <item name="backgroundColor">@color/black</item>
+    </style>
+
+    <style name="MaterialAlertDialog.Rounded" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="shapeAppearanceOverlay">@style/RoundedShapeAppearanceOverlay</item>
+    </style>
+
+    <style name="RoundedShapeAppearanceOverlay" parent="">
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>

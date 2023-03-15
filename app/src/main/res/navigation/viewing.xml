@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/viewing"
+    app:startDestination="@id/viewingFragment">
+
+    <fragment
+        android:id="@+id/viewingFragment"
+        android:name="ru.edgecenter.edge_vod.screens.main.tabs.viewing.list.ViewingFragment"
+        android:label="@string/viewing"
+        tools:layout="@layout/fragment_viewing"/>
+</navigation>

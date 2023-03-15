@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">EdgeVOD</string>
+
+    <string name="email">Email</string>
+    <string name="password">Passwort</string>
+    <string name="sign_in">Einloggen</string>
+    <string name="no_viewing_videos">Die Liste ist leer</string>
+
+    <string name="etEmail_is_empty">Email eingeben</string>
+    <string name="etPassword_is_empty">Passwort eingeben</string>
+    <string name="etEmail_is_incorrect">Bitte geben Sie eine gültige Email-Adresse ein</string>
+    <string name="etPassword_is_incorrect">Bitte richtiges Passwort eingeben</string>
+
+    <string name="logged_success">Sie sind erfolgreich eingeloggt</string>
+    <string name="logged_fail">Ungültige E-Mail oder Passwort</string>
+
+    <string name="no_internet">Kein Internet</string>
+    <string name="check_internet">Überprüfen Sie Ihre Netzwerkverbindung</string>
+    <string name="connection_restored">Verbindung wiederhergestellt</string>
+    <string name="camera_is_denied">Die Videoaufnahmefunktion ist nicht verfügbar, da keine Berechtigung vorliegt</string>
+    <string name="video_not_sent">Video nicht gesendet, bitte überprüfen Sie Ihre Netzwerkverbindung</string>
+    <string name="upload_video">Senden von Videos an EdgeCenter Server</string>
+
+    <string name="upload_video_dialog_title">Das aufgenommene Video auf den Server hochladen?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="video_sent_to_server">Das Video wird an den Server gesendet</string>
+
+    <string name="viewing">Anzeigen</string>
+    <string name="upload">Hochladen</string>
+    <string name="welcome">WillKomm</string>
+    <string name="happy_to_see">Wir freuen uns, Sie wiederzusehen!</string>
+    <string name="view_vods">VODs anzeigen</string>
+    <string name="view_vods_description">Zeigen Sie VODs an, die sich auf dem Server befinden.</string>
+    <string name="view_uploading_vods_description" translatable="false">Zeigen Sie VODs an, die auf den Server hochgeladen werden.</string>
+    <string name="no_videos">Es gibt noch keine Videos.</string>
+    <string name="no_uploading_videos" translatable="false">Es werden noch keine Videos hochgeladen.</string>
+    <string name="failed_load_videos">Videos konnten nicht geladen werden</string>
+    <string name="video_sent_success">Video %1$s auf dem Server, es kann nach der Verarbeitung angezeigt werden</string>
+    <string name="cancel_upload_video">Hochladen des Videos %1$s abgebrochen</string>
+    <string name="video_sent_failed">Video %1$s konnte nicht gesendet werden</string>
+    <string name="video_capture_succeeded" translatable="false">Videoaufnahme erfolgreich</string>
+    <string name="status_is_ready" translatable="false">bereit</string>
+    <string name="sign_out" translatable="false">Austragen</string>
+    <string name="see_demo">Siehe Demo</string>
+</resources>

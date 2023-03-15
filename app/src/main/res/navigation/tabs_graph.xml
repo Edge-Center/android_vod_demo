@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tabs_graph"
+    app:startDestination="@id/videos">
+
+    <include app:graph="@navigation/videos" />
+    <include app:graph="@navigation/viewing" />
+    <include app:graph="@navigation/upload_video" />
+    <include app:graph="@navigation/account" />
+
+</navigation>

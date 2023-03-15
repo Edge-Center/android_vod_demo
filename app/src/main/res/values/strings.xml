@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">EdgeVOD</string>
+    
+    <!-- Sign In screen -->
+    <string name="welcome">Welcome</string>
+    <string name="happy_to_see">Happy to see you again!</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="see_demo">See demo</string>
+
+    <string name="etEmail_is_empty">Enter eMail</string>
+    <string name="etPassword_is_empty">Enter password</string>
+    <string name="etEmail_is_incorrect">Please enter a valid email</string>
+    <string name="etPassword_is_incorrect">Please enter correct password</string>
+
+    <string name="logged_success">You are successfully logged in</string>
+    <string name="logged_fail">Invalid email or password</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="vods" translatable="false">VODs</string>
+    <string name="viewing">Viewing</string>
+    <string name="upload">Upload</string>
+    <string name="account" translatable="false">Account</string>
+
+    <!-- VODs screen -->
+    <string name="view_vods">View VODs</string>
+    <string name="view_vods_description">View VODs that are on the server.</string>
+    <string name="view_uploading_vods_description">View VODs that are uploading to the server.</string>
+    <string name="no_videos">There are no videos yet.</string>
+    <string name="no_uploading_videos">There are no uploading videos yet.</string>
+    <string name="failed_load_videos">Failed to load videos</string>
+
+    <string name="video_sent_success">Video %1$s on the server, it will be available for viewing after processing</string>
+    <string name="cancel_upload_video">Upload video %1$s canceled</string>
+    <string name="video_sent_failed">Failed to send video %1$s</string>
+
+    <!-- Viewing screen -->
+    <string name="no_viewing_videos">There are no videos to watch yet.</string>
+    
+    <!-- Capture/Upload video screen -->
+    <string name="camera_is_denied">Video recording function is not available because there are no permission</string>
+    <string name="video_capture_succeeded">Video capture succeeded</string>
+    <string name="upload_video">Sending Video to EdgeCenter Server</string>
+
+    <string name="upload_video_dialog_title">Upload the captured video to the server?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="video_sent_to_server">The video sent to the server</string>
+    
+    <!-- Others -->
+    <string name="no_internet">No Internet</string>
+    <string name="check_internet">Check your network connection</string>
+    <string name="connection_restored">Connection restored</string>
+    <string name="video_not_sent">Video not sent, please check your network connection</string>
+    <string name="status_is_ready">ready</string>
+    
+    <string name="size_in_MB" translatable="false">%1.2f MB</string>
+    <string name="id" translatable="false">ID: %1d</string>
+    <string name="sign_out">Sign Out</string>
+
+    <string name="zero_percent" translatable="false">0%</string>
+    <string name="one_hundred_percent" translatable="false">100%</string>
+</resources>
